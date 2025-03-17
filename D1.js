@@ -70,5 +70,4 @@ console.log(4 - x);
 name1 = "john";
 name2 = "John";
 console.log("nome 1 è uguale a nome 2", name1 === name2);
-Lower = name2.toLowerCase();
-console.log("nome 1 è ugale a nome 2", name1 === Lower);
+console.log("nome 1 è ugale a nome 2", name1.toLowerCase() === name2.toLowerCase());
